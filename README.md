@@ -1,6 +1,6 @@
-# react-native-cocos2dx
+# rn-cocos
 
-基于ReactNative JSI实现，暂时还无法Auto Linking. 需要一些手动配置，见：使用方法。
+Based on ReactNative JSI implementation, Auto Linking is not available yet. Some manual configuration is required
 
 ## Installation
 
@@ -8,15 +8,15 @@
 yarn add react-native-cocos2dx@https://github.com/lxp-git/react-native-cocos2dx.git
 ```
 
-## 使用方法
+## How to use
 
 ### iOS
 
-请按照Cocos工程的Hello World设置好工程的Cocos2d依赖。
+Please follow the Hello World of Cocos project to set up the Cocos2d dependency of the project.
 
 ### Android
 
-已经帮你实现了Cocos2d依赖，但是需要手动填入Cocos工程build出来的build目录， 在工程根目录的 `.env` 文件里面设置 `COCOS_BUILD_PATH`。
+Cocos2d dependency has been implemented for you, but you need to manually fill in the build directory of the Cocos project and `.env` set it in the file in the project root directory `COCOS_BUILD_PATH`。
 
 ### js
 ```js
@@ -29,7 +29,7 @@ import { Cocos2dGlviewView } from 'react-native-cocos2dx';
 </View>;
 ```
 
-具体见 ./example
+See ./example
 
 ## Contributing
 
